@@ -11,7 +11,7 @@
 Via Composer
 
 ``` bash
-$ composer require webklex/laravel-pdfmerger
+$ composer require wahyudev/laravel-pdfmerger
 ```
 
 ## Setup
@@ -21,12 +21,12 @@ Add the service provider to the providers array in `config/app.php`.
 ``` php
 'providers' => [
     ...
-    Webklex\PDFMerger\Providers\PDFMergerServiceProvider::class
+    Wahyudev\PDFMerger\Providers\PDFMergerServiceProvider::class
 ],
 
 'aliases' => [
     ...
-    'PDFMerger' => Webklex\PDFMerger\Facades\PDFMergerFacade::class
+    'PDFMerger' => Wahyudev\PDFMerger\Facades\PDFMergerFacade::class
 ]
 ```
 
@@ -34,12 +34,12 @@ Add the service provider to the providers array in `config/app.php`.
 A basic usage example:
 
 ``` php
-use Webklex\PDFMerger\Facades\PDFMergerFacade as PDFMerger;
+use Wahyudev\PDFMerger\Facades\PDFMergerFacade as PDFMerger;
 
 $oMerger = PDFMerger::init();
 
-$oMerger->addPDF('/path/to/project/vendors/webklex/laravel-pdfmerger/src/PDFMerger/examples/pdf_one.pdf', [2]);
-$oMerger->addPDF('/path/to/project/vendors/webklex/laravel-pdfmerger/src/PDFMerger/examples/pdf_two.pdf', 'all');
+$oMerger->addPDF('/path/to/project/vendors/wahyudev/laravel-pdfmerger/src/PDFMerger/examples/pdf_one.pdf', [2]);
+$oMerger->addPDF('/path/to/project/vendors/wahyudev/laravel-pdfmerger/src/PDFMerger/examples/pdf_two.pdf', 'all');
 
 $oMerger->merge();
 $oMerger->save('merged_result.pdf');
@@ -49,7 +49,7 @@ $oMerger->save('merged_result.pdf');
 ...add raw content data:
 
 ``` php
-$oMerger->addString(file_get_contents('/path/to/project/vendors/webklex/laravel-pdfmerger/src/PDFMerger/examples/pdf_two.pdf'), [1]);
+$oMerger->addString(file_get_contents('/path/to/project/vendors/wahyudev/laravel-pdfmerger/src/PDFMerger/examples/pdf_two.pdf'), [1]);
 
 ```
 
@@ -104,11 +104,12 @@ $ composer test
 
 ## Security
 
-If you discover any security related issues, please email github@webklex.com instead of using the issue tracker.
+If you discover any security related issues, please email wahyubudimanstt@gmail.com instead of using the issue tracker.
 
 ## Credits
 
-- [Webklex][link-author]
+- forked from [Webklex][link-author] 
+- [Wahydev]
 - All Contributors
 
 ## License

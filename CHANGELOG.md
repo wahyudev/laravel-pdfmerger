@@ -38,3 +38,6 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ### Added
 - new laravel-pdfmerger package
+
+## [1.3.1] (2021-12-25)
+- auto detect orientation
