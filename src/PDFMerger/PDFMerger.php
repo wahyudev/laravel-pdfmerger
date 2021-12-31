@@ -1,8 +1,6 @@
 <?php
 /*
 * File:     PDFMerger.php
-* Category: PDFMerger
-* Author:   M. Goldenbaum
 * Created:  01.12.16 20:18
 * Updated:  -
 *

@@ -9,12 +9,12 @@
         "merger",
         "pdfmerger"
     ],
-    "homepage": "https://github.com/wahyudev/pdfmerger",
+    "homepage": "https://github.com/wahyudev",
     "license": "MIT",
     "authors": [
         {
-            "name": "Malte Goldenbaum",
-            "email": "github@wahyudev.com",
+            "name": "Wahyu Budiman",
+            "email": "",
             "role": "Developer"
         }
     ],

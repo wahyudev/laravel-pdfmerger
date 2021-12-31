@@ -2,8 +2,6 @@
 /*
 * File:     PDFMergerServiceProvider.php
 * Category: Provider
-* Author:   M. Goldenbaum
-* Created:  01.12.16 20:28
 * Updated:  -
 *
 * Description:
